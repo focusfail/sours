@@ -1,4 +1,4 @@
-# Sours
+# sours
 
 An audio player with support for `.wav` and `.mp3` with prospect of becoming a soundboard.
 
