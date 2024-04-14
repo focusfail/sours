@@ -14,3 +14,6 @@ Playback is handles by [rodio](https://github.com/RustAudio/rodio) and UI create
 - Download audio from youtube
 - Autoplay
 - Display always on top
+
+
+![demo image](https://github.com/focusfail/sours/blob/master/image.png)
