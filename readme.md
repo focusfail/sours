@@ -1,13 +1,16 @@
 # Sours
 
+An audio player with support for `.wav` and `.mp3` with prospect of becoming a soundboard.
 
-### ToDo
-- [ ] Search playlist
-- [ ] Open file with sours
-- [ ] move playlist functions from `Options` to a new `Playlist` struct
-- [ ] save sours.jsons as playlists
-- [ ] add limit to youtube playlist download
-- [ ] rewrite `Options` struct to `Playlist` 
-  - [ ] add playlist version field & managment
-- [ ] fix autoplay when minimized
-- [ ] fix volume control keys likely only working on qwerty keyboards
+Playback is handles by [rodio](https://github.com/RustAudio/rodio) and UI made with [egui & eframe](https://github.com/emilk/egui)
+
+> [!IMPORTANT]
+> As of now the codebase is spaghetti and very unstable
+
+
+### Features
+- Playback of `wav` and `mp3` files
+- Shuffle
+- Download audio from youtube
+- Autoplay
+- Display always on top
